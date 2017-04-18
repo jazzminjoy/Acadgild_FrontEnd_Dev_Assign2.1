@@ -52,7 +52,7 @@ My approach:
 
 I created a web page with buttons to demonstrate each of the following:
 
-a) I first changed the assignment to add an honorific (Dr. Miss, Mrs., etc. to the beginning of a name.) Then I got that code to work
+a) I first changed the assignment to add an honorific (Dr. Miss, Mrs., etc.) to the beginning of a name.) Then I got that code to work
 without the arrow function.
 
 b) I then rewrote a) to use the arrow function.
