@@ -1,0 +1,101 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acadgild Front End Session 2 Assignment 1 Part 1</title>
+  <meta name="author" content="Michele Cannito">
+  <meta name="keywords" content="ECMAScript, ES6, Arrow Function">
+  <meta name="description" content="This is the first assignment in Acadgild's ES6 & Angular course.">
+  <link rel="stylesheet" type="text/css" href="assign2_1.css">                    
+</head>
+<body>
+  <div class="container" id="images">
+  <img src="images/acadgildFE.png" alt="Acadgild Front End Training logo" id="acadgildFE">
+  <img src="images/acadgild.jpg" alt="Acadgild logo" id="acadgild">
+  <img src="images/acadgildAngular.jpg" alt="Acadgild Angular logo" id="acadgildAngular">
+  </div>
+  <h1>Acadgild Front End Web Development Course</h1>
+  <h4>Student: Michele Cannito Buch, Date: April 15, 2017</h4>
+  <h2>Session 2, Assignment 1, Part 1</h2>
+<!-- Demo Button -->
+  <h3>Demo Button</h3>
+  <h5><i>myFunction()</i> in the assign2_1_a.js file (used for all of Part 1)</h5>
+  <p>This button is not part of the  assignment. It is to ensure
+  HTML code and JavaScript are linked and simple button logic is correct.</p>
+  <button type="button" class="button" onclick="myFunction()">Demo</button>
+  <p id="demo"> </p>
+  
+ <!-- Part 1, Original Logic -->
+  <h3>Assignment 2.1, Part 1 - <b>Original Code</b></h3>
+  <h5><i>function1a()</i> in the .js file</h5>
+  <p>The original code was kind of silly. Input with "Michele" and ["A", "B", "C"] results in MicheleA, MicheleB, and MicheleC.
+
+  I changed to have input "Cannito" and honorifics, such as ["Dr.", "Ms.", "Miss"], with output like Dr. Cannito, 
+  Ms. Cannito and so on.
+ 
+  This is before doing the assignment of using arrow functions.
+  </p>
+
+  <button type="button" class="button" onclick="function1a()">Part 1 - Original Code
+  </button>
+
+  <p id="part1a"> </p>
+
+
+<!-- Part 1, forEach Logic, Simplifies original code -->
+  <h3>Assignment 2.1, Part 1 - <b>forEach Logic, Simplifies original code</b></h3>
+  <h5><i>function1b() </i> in the .js file</h5>
+  <p>This button accesses ECMAScript 2015 code which changes the original code to use simplified logic by using forEach.
+  </p>
+
+  <button type="button" class="button" onclick="function1b()">Part 1 - forEach Code
+  </button>
+  
+  <p id="part1b"> </p>
+
+
+<!-- Part 1, Arrow Function Logic -->
+  <h3>Assignment 2.1, Part 1 - Arrow Function Code</h3>
+  <h5><i>function1c() </i> in the .js file</h5>
+  <p>This button accesses ECMAScript 2015 code which changes the original code to use arrow (=>) functions.
+  </p>
+
+  <button type="button" class="button" onclick="function1c()">Part 1 - Arrow Code
+  </button>
+
+  <p id="part1c"> </p>
+
+<!-- Extra Credit -->
+  <h2>Extra Credit: Use forEach method to add "e" to words</h2>
+  <h3>Change Cap, Tap, Hug, Pin, Can, Mat, Win and other words with Magic "e"
+  </h3>
+  <h5><i>function1d() </i> in the .js file</h5>
+  <p>This button reuses the forEach method (slightly modified) with different input to add final "e" 
+  to CVC (Consonant - Vowel - Consonant) words to make new long vowel words.
+  </p>
+
+  <button type="button" class="button" onclick="function1d()">Magic "e"
+  </button>
+
+  <p id="part1d"> </p>
+
+<!-- Original Assignment -->
+  <h2>Original Assignment</h2>
+  <h3>Rewrite given code to use => function and add a character to the end of a name
+  </h3>
+  <h5><i>function1e() </i> in the .js file</h5>
+  <p>This section modifies the original code and adds a number from array [1, 2, 3, 4, 5] to the end of a name.
+  </p>
+
+  <button type="button" class="button" onclick="function1e()">Name + char
+  </button>
+
+  <p id="part1e"> </p>
+
+
+<script
+  src="assign2_1_a.js";>
+</script>
+</body>
+</html>

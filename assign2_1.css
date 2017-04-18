@@ -1,0 +1,63 @@
+h1, h2, h3, h4, p, button {
+	font-family:  Verdana, Helvetica, Geneva, sans-serif;
+}
+
+#images, h1, h4 {
+	text-align: center;
+}
+
+h1 {
+    color: midnightblue;
+    font-size: 300%;
+
+}
+h2 {
+    color: indigo;
+    font-size: 250%;
+
+}
+h3 {
+    color: purple;
+    font-size: 195%;
+
+}
+h4 {
+    color: crimson;
+    font-size: 175%;
+    padding-left: 15px;
+    text-align: center;
+}
+h5 {
+    color: IndianRed;
+    font-size: 175%;
+    padding-left: 15px;
+}
+p  {
+    color: forestgreen;
+    font-size: 150%;
+    padding: 0px 15px 0px 15px;
+}
+.button  {
+    background-color: lavendorBlush; 
+    border: 5px double orchid;
+    color: teal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    left: 15px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.button:hover {
+    background-color: thistle; 
+    color: steelblue;
+    padding-left: 15px;
+}
+#part1a, #part1b, #part1c, #part1d, #part1e, #demo {
+	color: midnightblue;
+}
